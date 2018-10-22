@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SelDX</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="title_pay">Pay</string>
+    <string name="title_history">History</string>
+    <string name="title_pres">Prescription</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_home_fragment">Hello home fragment</string>
+    <string name="hello_dashboard_fragment">Hello dash fragment</string>
+    <string name="hello_notifications_fragment">Hello not fragment</string>
+    <string name="hello_pres_fragment">Hello pres fragment</string>
+    <string name="app_title">SelDX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- home button colors -->
+    <string name="btn1">Symptom Checker</string>
+    <string name="btn2">Disease</string>
+    <string name="btn3">Skin Problems</string>
+    <string name="btn4">Psycho-\nlogical disorder</string>
+    <string name="btn5">Oral disorder</string>
+
+</resources>

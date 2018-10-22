@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/frag_horizontal_margin"
+        android:paddingLeft="@dimen/frag_vertical_margin"
+        android:paddingRight="@dimen/frag_horizontal_margin"
+        android:paddingTop="@dimen/frag_vertical_margin"
+        tools:context=".MainActivity" android:id="@+id/percentRelativeLayout">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment"
+            android:id="@+id/textView"/>
+    <Button
+            android:id="@+id/button"
+            android:text="@string/btn1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="@dimen/topbtnhight"
+            app:layout_constraintWidth_percent="0.635"
+            android:layout_marginStart="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/button3"
+            android:backgroundTint="@color/symchk" android:textColor="@color/white" android:textAllCaps="false"
+            android:textStyle="bold"/>
+
+    <Button
+            android:id="@+id/button2"
+            android:text="@string/btn2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="@dimen/topbtnhight"
+            app:layout_constraintWidth_percent="@dimen/topbtnwidth"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/button5"
+            android:backgroundTint="@color/diechk" android:textColor="@color/white" android:textAllCaps="false"
+            android:textStyle="bold"/>
+
+    <Button
+            android:id="@+id/button3"
+            android:text="@string/btn3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="@dimen/btmbtnhight"
+            app:layout_constraintWidth_percent="@dimen/btmbtnwidth"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/button4"
+            app:layout_constraintHorizontal_chainStyle="spread_inside" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:backgroundTint="@color/sknchk"
+            android:textColor="@color/white" android:textStyle="bold" android:layout_marginStart="8dp"
+            android:textAllCaps="false"/>
+
+    <Button
+            android:id="@+id/button4"
+            android:text="@string/btn4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="@dimen/btmbtnhight"
+            app:layout_constraintWidth_percent="@dimen/btmbtnwidth"
+            app:layout_constraintStart_toEndOf="@+id/button3"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/button5" android:textStyle="bold"
+            android:backgroundTint="@color/psychk" android:textColor="@color/white" android:textAllCaps="false"/>
+
+    <Button
+            android:id="@+id/button5"
+            android:text="@string/btn5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="@dimen/btmbtnhight"
+            app:layout_constraintWidth_percent="@dimen/btmbtnwidth"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button4"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:backgroundTint="@color/orlchk" android:textColor="@color/white" android:textAllCaps="false"
+            android:textStyle="bold"/>
+    <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/videoView" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="1.0" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/button"/>
+
+</android.support.constraint.ConstraintLayout>

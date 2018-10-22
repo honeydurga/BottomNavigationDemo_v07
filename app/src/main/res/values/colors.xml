@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="cblue">#0fa0f8</color>
+    <color name="cgyey">#ACACAC</color>
+    <color name="symchk">#3cd2dc</color>
+    <color name="diechk">#7bafee</color>
+    <color name="sknchk">#8dd4ff</color>
+    <color name="psychk">#7bafee</color>
+    <color name="orlchk">#7aa3d0</color>
+</resources>
